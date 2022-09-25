@@ -32,13 +32,14 @@ fieldbook_antioch_extract_text.ipynb - The main program
 
 The notebook uses Google Colab and Google Drive.
 
-There are four sections:
+There are six sections:
 
 + Google sheet - Get handle on it
 + Contrast images
 + Azure Cognitive Services
 + AWS
 + GCP
++ Write HTML files
 
 ### Google sheet - Get handle on it
 
@@ -51,8 +52,6 @@ The process reads each .jpg file in '/content/drive/MyDrive/fieldbooks_images/19
 ### Azure Cognitive Services, AWS, GCP
 
 Each of the three services runs in the same manner.
-
-
 
 ```mermaid
 graph TD
@@ -67,3 +66,6 @@ T7-->T5
 
 ```
 
+### Write HTML files
+
+This cell loops through the rows of the contrasted_pages worksheet and saves them into html pages.
