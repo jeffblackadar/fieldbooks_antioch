@@ -57,8 +57,13 @@ Each of the three services runs in the same manner.
 ```mermaid
 graph TD
 
-T1['Install and import packages']-->T2['Load parameters from a .json file']
-T2-->T3['Store parameters such as the secret access key and endpoint URL in variables.']
+T1["Install and import packages"]-->T2["Load parameters from a .json file"]
+T2-->T3["Store parameters such as the secret access key and endpoint URL in variables."]
+T3-->T4["Set a function to call the service to transcribe an image using its path.<br>example: def get_text_from_image_gcp(path)"]
+T4-->T5["Interate the list of contrasted image files in a directory."]
+T5-->T6["Call function to transcribe using the path of an image"]
+T6-->T7["Update contrasted_pages worksheet with text returned from function."]
+T7-->T5
 
 ```
 
