@@ -6,7 +6,7 @@ This program transcribes images of a handwritten fieldbook into text. It does it
 + Amazon Web Services
 + Google Cloud Platform.
 
-The results are stored in a [Google sheet](https://docs.google.com/spreadsheets/d/1RJIX6HDAOfD1GObbu1wJOo-gOlRG3uWwG0JM_iQWdA8/edit?usp=sharing) starting on row 19.
+The results are stored in a [Google sheet](https://docs.google.com/spreadsheets/d/1RJIX6HDAOfD1GObbu1wJOo-gOlRG3uWwG0JM_iQWdA8/edit?usp=sharing). See the 'contrasted_pages' sheet.
 
 ## Objectives
 
@@ -55,8 +55,10 @@ Each of the three services runs in the same manner.
 
 
 ```mermaid
-Graph TD
+graph TD
 
-T1['s']
+T1['Install and import packages']-->T2['Load parameters from a .json file']
+T2-->T3['Store parameters such as the secret access key and endpoint URL in variables.']
+
 ```
 
