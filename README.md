@@ -101,9 +101,9 @@ D1["Get handle on spreadsheet"]-->D2["Download each image URL in column D."]
 D2-->D3["Split wide images into 2 pages."]
 D3-->D4["Inspect page split images"]
 D4-->D5["Contrast images."]
-D5-->D6["Inspect contrasted images."]
+D5-->D6["Inspect each contrasted image."]
 D6-->D7{"Contrast good?"}
-D7-->|Yes|D5
+D7-->|Yes|D6
 D7-->|No|D8["Change threshold and re-run contrast for image."]
 D8-->D7
 ```
