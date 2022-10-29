@@ -1,0 +1,9 @@
+Correct the OCR errors in this French text. Print the correction underneath a subheading called 'CORRECTION'. Then, underneath a subheading called 'TRANSLATION', translate into English:
+
+C'est un terr4in situé à l'Est or la Route ; il est conlyn
+l'un 1 derrières massimo ; plante de quelpas figuiers - dal
+acting but jeers . it off presseurs ; in ya reme'de mai's.
+Plusieurs tuns voision, d'environ 5m de profondeur, as servi
+À carrier ; men a extrait is press dailles, with fragment
+gardent belle apparence. Les travaux net avéli pas 11. Pust
+De puits voisin A la maison voisine.
