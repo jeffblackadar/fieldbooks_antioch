@@ -105,7 +105,7 @@ D5-->D6["Inspect contrasted images."]
 D6-->D7{"Contrast good?"}
 D7-->|Yes|D5
 D7-->|No|D8["Change threshold and re-run contrast for image."]
-D8--D7
+D8-->D7
 ```
 
 ## fieldbook_antioch_extract_text.ipynb
